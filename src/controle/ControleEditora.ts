@@ -1,6 +1,6 @@
 import { Editora } from '../modelo/Editora';
 
-// Array de objetos Editora que representa as editoras existentes
+//representa as editoras existentes
 
 let editoras: Editora[] = [
   new Editora(1, 'Intrínseca'),
