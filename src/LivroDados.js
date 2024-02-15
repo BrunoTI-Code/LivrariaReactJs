@@ -28,7 +28,7 @@ function LivroDados() {
     const [autores, setAutores] = useState('');
     const [codEditora, setCodEditora] = useState(opcoes[0].value);
 
-    // Hook de navegação para redirecionar após a inclusão
+    //redirecionar após a inclusão
 
     const navigate = useNavigate();
 
@@ -43,7 +43,7 @@ function LivroDados() {
     const incluir = (evento) => {
         evento.preventDefault();
         const livro = {
-            codigo: 0, // Será atualizado pelo controle ao incluir
+            codigo: 0, //atualizado pelo controle ao incluir
             titulo,
             resumo,
             autores: autores.split('\n'), // Divide os autores com base nas quebras de linha
